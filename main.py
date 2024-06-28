@@ -3,7 +3,9 @@ import pandas as pd
 import streamlit as st
 import cleantext
 
-st.header('Reddit Comment Sentiment Analyzer')
+st.header('Reddit Sentiment Analyzer')
+st.text("A simple web application for analyzing reddit sentiments. Receive immediate feedback \non the sentiment, whether it is positive or negative")
+
 with st.expander('Analyze Text'):
     text = st.text_input('Input text here: ')
     if text:
