@@ -15,7 +15,7 @@ col1, col2 = st.columns([1, 9])
 
 with col1:
     st.write("")
-    st.image('images/reddit_logo.png', width=65)  # Adjust width as needed
+    st.image('images/reddit_logo.png', width=65)
 
 with col2:
     st.title('Reddit Sentiment Analyzer')
@@ -78,3 +78,11 @@ with st.expander('Analyze CSV'):
             file_name='sentiment.csv',
             mime='text/csv',
         )
+
+with st.expander('About the creators', icon='ℹ'):
+    st.markdown("""
+    This web application was created by a team to achieve a proof of concept, and to experiment with the Streamlit library, aiming to provide a simple and intuitive tool 
+    for analyzing sentiments in Reddit comments. We hope you find it useful!
+
+    Feedback or suggestions are welcome.
+    """)
