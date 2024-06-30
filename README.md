@@ -26,3 +26,5 @@ Access the app in your web browser by navigating to:
 ```
 http://localhost:8501
 ```
+
+Enjoy!
